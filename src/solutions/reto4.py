@@ -1,8 +1,13 @@
-#Crea una única función (importante que sólo sea una) que sea capaz de calcular y retornar el área de un polígono.
-#- La función recibirá por parámetro sólo UN polígono a la vez.
-#- Los polígonos soportados serán Triángulo, Cuadrado y Rectángulo.
-#- Imprime el cálculo del área de un polígono de cada tipo.
+from cgitb import reset
+from math import pi, tan
+from tkinter import DoubleVar
 
+def areaPoligono(n, l):
+    area = n*l**2/(4* tan(pi/n))
+    return area
 
-def areaPoligono(poligono):
-    pass
+n= int(input('Ingrese la cantidad de lados '))
+l= int(input('Ingrese la longitud '))
+
+resultado = areaPoligono(n,l)
+print (resultado)

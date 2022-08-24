@@ -1,6 +1,5 @@
 from cgitb import reset
 from math import pi, tan
-from tkinter import DoubleVar
 
 def areaPoligono(n, l):
     area = n*l**2/(4* tan(pi/n))

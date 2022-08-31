@@ -1,4 +1,4 @@
-numero = 10;
+const numero = 10;
 let numeroB = '';
 while(numero>=2){
     conciente = Math.trunc(numero/2);

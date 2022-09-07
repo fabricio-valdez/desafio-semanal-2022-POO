@@ -1,3 +1,4 @@
+#ELIMINANDO CARACTERES
 def eliminarC(str1,str2):
     out1 = ""
     out2 = ""

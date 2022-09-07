@@ -1,3 +1,4 @@
+//C0DIGO MORSE
 let = {
     "a":".-","b":"-...","c":"-.-.",
     "d":"-..","e":".","f":"..-.",
@@ -8,5 +9,6 @@ let = {
     "s":"...","t":"-","u":"..-",
     "v":"...-","w":".--","x":"-..-",
     "y":"-.--","z":"--.."}
-palabra.toLowerCase
-let palabra = "Hola Mundo"
+function morse (text){
+    for 
+}
